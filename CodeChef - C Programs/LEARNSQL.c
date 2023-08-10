@@ -2,11 +2,9 @@
 
 int main(void) {
 	// your code goes here
-	int a,b,c,d;
-	scanf("%d %d %d",&a,&b,&c);
-	d=a+c;
-	b=d*b;
-	printf("%d\n",b);
+	int a,b,c;
+	scanf("%d %d %d\n",&a,&b,&c);
+	printf("%d\n",(a+c)*b);
 	return 0;
 }
 
